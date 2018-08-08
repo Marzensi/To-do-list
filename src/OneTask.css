@@ -1,0 +1,33 @@
+li.added-tasks{
+    background-color: rgba(255, 255, 255 ,0.5);
+    margin:0 5px 5px 0;
+    border-radius: 10px;
+    list-style-type:none;
+    padding-left:15px;
+    min-width: 48vw;
+}
+
+p.task-no{
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+p.task-description{
+    margin-left:50px;
+    margin-right:5px;
+}
+
+button.btn-delete{
+    height:24px;
+    margin-right: 10px;
+    margin-bottom:8px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: rgba(192,192,192, 0.6);
+}
+
+button.btn-delete:hover{
+    text-shadow: 0 0 5px red
+}
+
