@@ -13,7 +13,7 @@ class OneTask extends Component{
 
     render(){
         return(
-            <li className="added-tasks">
+            <li className="added-tasks col-xs col-sm col-md-5">
                 <div className="d-flex justify-content-flex-start">
                     <CheckboxLabels />
                     <p className='task-no'>Task No. {this.props.index + 1}</p>
